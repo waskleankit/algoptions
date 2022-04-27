@@ -1,0 +1,147 @@
+sudo -u postgres psql1. sudo apt update
+2. sudo apt install postgresql postgresql-contrib
+3. sudo -i -u postgres
+4. psql
+5. \q (to be run on postgres command line)
+6. exit
+7. sudo -u postgres psql
+8. \q
+9. createuser --interactive\
+10. sudo -u postgres createuser --interactive
+11. createuser --interactive
+12. sudo -u postgres createdb sammy
+13. sudo adduser sammy
+14. sudo -i -u sammy
+psql
+15. sudo -u sammy psql
+16. psql -d postgres
+17. \conninfo
+
+
+
+git add .
+git commit -m " database and requirement "
+git push heroku main
+
+
+{"user":{"id":14,"username":"adminankit","email":"admin@bot.com"},"token":"dee986fbab14f654efc57b40e14eb91ac0c91fd79518b39b7f5dbefce1328d41"}
+f72039271c9af74251ea146c0eaa6628104b1eae72b75659cebcfc9609f04edd
+
+
+
+sudo -u postgres psql
+create database ecpshoppinglyx;
+create user ankitecp with encrypted password 'ankit2073';
+grant all privileges on database ecpshoppinglyx to ankitecp
+
+
+
+
+shoppinglyx paypal
+AfsPh1KLxR_J5G7SuZ-aSszb7SRl3UgroGildQOIw3nnfvfydF9qC9bqqmCG2ewIn-ejOxfG5sRLxv0y
+EK8HjBXLJ6jpCtDXuZ3rreAJB9OqOy9GyF1CSg2ooJHvka7g97tfIhMuwbJNK7VX1Da5GSSVDih3kowH
+
+
+CREATE TABLE flights(id SERIAL PRIMARY KEY,origin VARCHAR NOT NULL,destination VARCHAR NOT NULL,duration INTEGER NOT NULL);
+
+INSERT INTO flights (origin,destination,duration) VALUES ('NEW YORK','LONDON',415);
+
+
+INSERT INTO posts(id,username,description,date_created) VALUES (14,'LONDON','this is inserted description',14-11-2021);
+SELECT * FROM flights
+INSERT INTO posts(user_id) VALUES (2) WHERE category_id = 3;
+
+
+INSERT INTO posts(id,username,description) VALUES (14,'LONDON','this is inserted description');
+
+SELECT post.id,post.username,post.description FROM posts WHERE id=11;
+
+[ WITH [ RECURSIVE ] with_query [, ...] ]
+SELECT [ ALL | DISTINCT [ ON ( expression [, ...] ) ] ]
+    [ * | expression [ [ AS ] output_name ] [, ...] ]
+    [ FROM from_item [, ...] ]
+    [ WHERE condition ]
+    [ GROUP BY grouping_element [, ...] ]
+    [ HAVING condition ]
+    [ WINDOW window_name AS ( window_definition ) [, ...] ]
+    [ { UNION | INTERSECT | EXCEPT } [ ALL | DISTINCT ] select ]
+    [ ORDER BY expression [ ASC | DESC | USING operator ] [ NULLS { FIRST | LAST } ] [, ...] ]
+    [ LIMIT { count | ALL } ]
+    [ OFFSET start [ ROW | ROWS ] ]
+    [ FETCH { FIRST | NEXT } [ count ] { ROW | ROWS } ONLY ]
+    [ FOR { UPDATE | NO KEY UPDATE | SHARE | KEY SHARE } [ OF table_name [, ...] ] [ NOWAIT | SKIP LOCKED ] [...] ]
+    
+    INSERT INTO category(category_name,create_date,update_date) VALUES ('adminankit','12-11-2021','12-11-2021'); 
+INSERT INTO users(user_id,role,name,email,password) VALUES (1,'admin','adminankit','email','Ankit2073');    
+ UPDATE posts SET user_id=2 WHERE category_id=3;
+  UPDATE posts SET category_id=5 WHERE id=37; 
+  UPDATE posts SET category_id=6 WHERE id=26;
+ 
+ 
+ sb-vfnum8963567@personal.example.com
+ 
+docker run -v /tmp:/var/www ubuntu stat -c "%U %G" /var/www
+ docker-compose run app sh -c "python manage.py test"
+ docker-compose run app sh -c "python manage.py test && flake8"
+
+
+  sudo rm -rf /etc/docker
+  sudo snap refresh
+
+
+
+docker run -v /etc/timezone:/etc/timezone [python:3.9-alpine]
+
+
+git access token
+ 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
+ 
+new git access token SETTINGS>DEVELOPERS>PERSONALACCESSTOKEN 
+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
+ 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
+ 
+ 
+ 
+ 
+ django BlogSite 
+ client ID
+ ASWQs1lkYr8ZcaUL_lGdN6KUJBygk7kCj4fE6r0a4slm7PWDuidGQ3IRx7-GPoo_XFEClhaxkPLi_w01
+ client secret
+ EF5PQ3VDMg6JAgbS3BaImWyM752_KsmEzM8Xy4GvGgbsA5mmDxQf8RTNolqRzvKKVVu_78jTSPz1w1JO
+ 
+ 
+sb-tynmx11002457@personal.example.com
+System Generated Password:
+bB3!>X6n
+
+ 
+ DATABASES={
+   'default':{
+      'ENGINE':'django.db.backends.postgresql_psycopg2',
+      'NAME':'postgresql',
+      'USER':'mydbuser',
+      'PASSWORD':'ankitwaskle',
+      'HOST':'localhost',
+      'PORT':'5432',
+   }
+}
+# mysql://username:password@server/db
+# postgresql: // mydbuser: @ :/
+# postgresql://mydbuser:@localhost:5432/mydbuser
+# Password validation
+# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
+ 
+client secret - EHDVp-F8zYNd9L4CPMSpEFUG21k0es0RrfL7DNwMtl98iHsBeNapyYhZX0M2_qTDF1MJ2x7tRgkl1xyS
+ 
+client id -   AQXrXt15Z-ZX5gEaN1FyfrcVqXHiJy1YO9ZfU5wkzPLVeZNiltQQAJfFmga3qPKNgzBRTwA7r7b0UNTc
+
+
+
+
+
+
+
+google
+OAuth App
+189817624536-e5i1n78ndr6tq490edr0fm3ubsi9n590.apps.googleusercontent.com
+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
